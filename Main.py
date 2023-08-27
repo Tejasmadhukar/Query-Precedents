@@ -30,7 +30,7 @@ query = st.text_area(label = 'Enter your query involving Indian Legal Precedents
 
 start = st.button(label = 'Start')
 
-base_append = "\nList similar cases. If not exact, list similar cases. Give case title for each case. Don't repeat case titles."
+base_append = ""
 
 if start:
     st.subheader('Query Response -')
